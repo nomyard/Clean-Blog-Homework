@@ -1,0 +1,138 @@
+
+.jumbotron{
+	background-image: url("http://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg");
+	background-size:cover;
+	/*position:fixed;*/
+	background-position: center;
+	display:block;
+}
+
+
+
+.post-heading{
+	font-family:'Open Sans';
+	color:white;
+	margin-top:50px;
+	display:block;
+
+}
+
+.subheading{
+	color:white;
+	font-family:'Open Sans';
+	font-weight:900;
+	font-size:30px;
+}
+
+h5{
+	color:white;
+	margin-top:20px;
+	font-family:Lora, 'Times New Roman';
+	font-weight:300;
+	font-size:20px;
+	font-style:italic;
+	padding-bottom:100px;
+
+}
+
+.navbar{
+	background-color:transparent;
+	border-color:transparent;
+	font-weight:800;
+	margin-top:-50px;
+
+}
+
+#start, #home, #about, #sample, #contact{
+	color:white;
+	font-family:'Open Sans';
+	font-weight:900;
+}
+
+#start:hover, #home:hover, #about:hover, #sample:hover, #contact:hover{
+	color:#c0c0c0;
+}
+
+p{
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family:Lora;
+	font-size:20px;
+	display:table;
+	line-height:1.5;
+	color:black;
+
+	
+}
+
+.post-heading h1{
+	font-weight:bold;
+	font-size:60px;
+}
+
+h2{
+	font-family:'Open Sans';
+	font-weight:900;
+	
+
+}
+blockquote{
+	color:#777;
+	font-style:italic;
+	padding:10px 20px;
+	margin:0 0 20px;
+	font-size:17px;
+	border-left:5px solid #eee;
+	font-family:Lora;
+}
+#space, #nasa{
+	text-decoration:underline;
+	color:black;	
+}
+.fa{
+	display:inline-block;
+	color:#2f4f4f;
+	margin-top:50px;
+}
+.fa-stack-2x{
+	
+	position:absolute;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+.fa-stack-1x{
+	position:absolute;
+	left:0;
+	width:100%;
+	text-align:center;
+	line-height:inherit;
+}
+.text-muted{
+	color:#777;
+}
+.caption{
+	text-align:center;
+	font-style:italic;
+	font-size:14px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	padding:10px;
+	font-family:Lora;
+	width:100%;
+
+}
+.copyright{
+	text-align:center;
+	width:100%;
+	font-size:14px;
+	padding-top:30px;
+}
+#firstlink{
+	text-decoration: none;
+	color:white;
+
+}
+#firstlink:hover{
+	text-decoration: underline;
+}
